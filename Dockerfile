@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:carbon-slim
 
 # prepare a user which runs everything locally! - required in child images!
 RUN useradd --user-group --create-home --shell /bin/false app
